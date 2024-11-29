@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# SOEN-357 Project: UI Design Research for Smart Parking Application 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
