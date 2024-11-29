@@ -1,0 +1,87 @@
+
+  .saved-list .highlighted {
+    color: black;
+  }
+
+
+  .saved-list h1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+  .saved-list h2 {
+    color: black;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .saved-list ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .saved-list li {
+    padding: 1rem;
+  }
+  
+  .parking-lot {
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .parking-lot h2 {
+    margin: 0 0 10px;
+  }
+  
+  .parking-lot p {
+    margin: 5px 0;
+    color: black;
+  }
+  
+  .parking-lot strong {
+    color: #555;
+  }
+  
+
+  .parking-details-button {
+    background-color: transparent;
+    color: #446483;;
+    border: 2px solid transparent; 
+    font-size: 1.25rem;
+    outline: none; 
+    padding: 0; 
+    margin-top: 1rem;
+  }
+  
+  .parking-details-button:hover {
+    border: 2px solid transparent; 
+    text-decoration: underline;
+  }
+  
+  .parking-details-button:focus {
+    border: 2px solid transparent; 
+    outline: none; 
+  }
+
+
+  .parking-detail-content {
+    color: black;
+  }
+
+  .parking-detail-content h3 {
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 0;
+  }
+
+
+
+
