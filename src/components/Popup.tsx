@@ -3,6 +3,9 @@ import { ParkingLot } from '../types';
 import SavedParkingList from './SavedParkingList'; 
 import RecentParkingList from './RecentParkingList';
 import SearchBar from './Searchbar';
+import wave from '../assets/wave.png'
+import parkingDetailsPhoto from '../assets/parkingPhoto.jpg'
+import './Popup.css'
 
 
 interface PopupProps {
@@ -32,17 +35,49 @@ const Popup: React.FC<PopupProps> = ({ activePopup, handleClosePopup, isFading }
     if (view === 'details' && selectedParkingLot) {
       // Render details view
       return (
-        <div className="parking-detail-content">
+        <div className="parking-detail-container">
           
-          <p>{selectedParkingLot.description}</p>
+
+          
+          <h4>{selectedParkingLot.description}</h4>
+          <h4>Details:</h4>
+          <div className="parking-details">
+            
           <p><strong>Price:</strong> {selectedParkingLot.price}</p>
           <p>
             <strong>Occupancy:</strong> {selectedParkingLot.occupancy}/
             {selectedParkingLot.maxOccupancy}
           </p>
+          </div>
+
+          <div className='occupation-container'>
+            <h4>Occupation</h4>
+            <img src={wave} alt='occupation graph'></img>
+            <hr />
+            <div className='times'>
+              <h3>8am</h3>
+              <h3>10am</h3>
+              <h3>12pm</h3>
+              <h3>2pm</h3>
+              <h3>4pm</h3>
+              </div>
+          </div>
+
+          <div className='parking-lot-photo'>
+            <img src= {parkingDetailsPhoto} alt='parking lot photo'></img>
+          </div>
+
+
+
+
+        <div className='btn-container'>      
           <button className="back-to-list-btn" onClick={handleBackToList}>
             Back to List
           </button>
+          <button className="back-to-list-btn" onClick={handleBackToList}>
+            Save
+          </button>
+        </div>
         </div>
       );
     }

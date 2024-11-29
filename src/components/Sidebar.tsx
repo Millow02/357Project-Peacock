@@ -5,6 +5,7 @@ import './Sidebar.css'
 import searchIcon from '../assets/search.svg';
 import savedIcon from '../assets/saved-logo.svg'
 import recentIcon from '../assets/recent-icon.svg'
+import userIcon from '../assets/user.svg'
 
 
 
@@ -56,11 +57,12 @@ const Sidebar: React.FC<SidebarProps> = ({ onOpenPopup, onNavigateToProfile }) =
 
 
         <div className='secondary-action-buttons'>
-        <button>
-            Alerts
-          </button>
-          <button onClick={handleProfileClick}>Profile</button>
-
+          <div className='sidebar-item'>
+            <button onClick={handleProfileClick} className="sidebar-button">
+              <img src={userIcon} alt='profile icon' className="sidebar-icon" />
+              
+             </button>
+          </div>
         </div>
       </div>
 
