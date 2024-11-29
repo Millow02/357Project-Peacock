@@ -14,7 +14,116 @@
   }
   
   .profile-page p {
-    font-size: 18px;
+    font-size: 1rem;
     color: #666;
   }
+
+  .profile-page {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .profile-page h3 {
+    color: black;
+    align-self: flex-start;
+    margin: 0;
+  }
+
+   .stock-image {
+    height: 100vh;
+    width: 60%;
+    align-content: center;
+    background-color: #446483;
+  } 
+
+  .stock-image img {
+    width: 100%;
+    z-index: 9999;
+  }
+
+  .sign-in-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+    margin: auto 0;
+    align-items: center;
+    width: 50%;
+    padding: 0 10rem;
+   
+    
+  }
+
+  .return-button {
+    background-color: #446483bd;
+    font-size: 1rem;
+    border-radius: 1em;
+    padding: 1rem 5rem;
+    font-size: 1.25em;
+    margin-top: 3rem;
+    margin: 3rem 8rem;
+    
+  }
+
+
+  .sign-in-form {
+    margin-top: 3rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .sign-in-form hr {
+    width: 100%;
+  }
   
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e6f9d48;
+    border-radius: 0.75rem;
+    margin-top: 1rem;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    
+    
+  }
+  
+  .search-input {
+    flex: 1;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    outline: none;
+    height: 100%;
+    border: none;
+    padding-left: 1rem;
+    
+  }
+
+  .login-sso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-sso hr{
+    height: 1px;
+    margin: 0;
+  }
+
+  .login-sso h3 {
+    white-space: nowrap;
+    padding: 0 1rem;
+  }
+
+  .sso-button {
+    margin-top: 3rem;
+    background-color: transparent;
+    color: black;
+    border-color: grey;
+  }
