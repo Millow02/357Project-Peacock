@@ -1,9 +1,11 @@
 # SOEN-357 Project: UI Design Research for Smart Parking Application 
 
 ### Authors:
-* Scott McDonald 	 40211626
-* Angelo Reoligio	 40191187
-* Rihazul Islam 	 40212505
+| Name    | Student ID | GitHub Username |
+| -------- | ------- | ------- |
+| Scott McDonald | 40211626 | Millow02 |
+| Angelo Reoligio | 40191187 | Angewoah |
+| Rihazul Islam | 40212505 | Rihazul |
 
 
 ## Description:
