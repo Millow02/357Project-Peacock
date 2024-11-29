@@ -9,6 +9,8 @@
 ## Description:
 This is a research project that enables the purpose of making a smart parking management application for commuters with cars. This application will be a web-based application that will help frustrated commuters who want a better experience at finding parking rather than getting stuck in traffic and losing their valuable time. The web application will be delivered with the use of TypeScript, CSS, HTML and JavaScript. With all the approaches considered, this repository includes the final mockup design.  
 
+## How to run the code:
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
