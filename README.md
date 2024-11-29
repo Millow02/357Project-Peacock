@@ -1,6 +1,6 @@
 # SOEN-357 Project: UI Design Research for Smart Parking Application 
 
-###Authors:
+### Authors:
 Scott McDonald 	 40211626
 Angelo Reoligio	 40191187
 Rihazul Islam 	 40212505
