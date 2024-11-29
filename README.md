@@ -1,9 +1,9 @@
 # SOEN-357 Project: UI Design Research for Smart Parking Application 
 
 ### Authors:
-Scott McDonald 	 40211626
-Angelo Reoligio	 40191187
-Rihazul Islam 	 40212505
+-Scott McDonald 	 40211626
+-Angelo Reoligio	 40191187
+-Rihazul Islam 	 40212505
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
