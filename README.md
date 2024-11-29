@@ -6,7 +6,8 @@
 * Rihazul Islam 	 40212505
 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description:
+This is a research project that enables the purpose of making a smart parking management application for commuters with cars. This application will be a web-based application that will help frustrated commuters who want a better experience at finding parking rather than getting stuck in traffic and losing their valuable time. The web application will be delivered with the use of TypeScript, CSS, HTML and JavaScript.  
 
 Currently, two official plugins are available:
 
