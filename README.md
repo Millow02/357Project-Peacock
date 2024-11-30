@@ -19,8 +19,8 @@ This is a research project that enables the purpose of making a smart parking ma
 
 3. Install dependencies (You need vite and react)
    
-Run:
-npm i react
-npm i vite
+### Run:
+### npm i react
+### npm i vite
 
 4. cd into the correct directory and run: npm run dev
